@@ -1,1 +1,22 @@
-.DS_Store
+# leave out data directory
+/data
+
+# leave out fastai link
+/fastai
+
+# leave out checkpoints
+*checkpoint*
+/.ipynb_*
+
+# leave out pycache
+*pycache*
+
+# leave out log directories
+/*log*
+
+# leave out output jpgs
+*.jpg
+
+# sbatch related 
+/*sbatch_out
+/*sbatch_err
